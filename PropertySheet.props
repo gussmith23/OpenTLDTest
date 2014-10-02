@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup>
+    <Link>
+      <TreatLinkerWarningAsErrors>false</TreatLinkerWarningAsErrors>
+    </Link>
+    <ClCompile>
+      <AdditionalIncludeDirectories>R:\hfs5022\C++\OpenTLD\src\3rdparty\cvblobs;R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig;R:\hfs5022\C++\OpenTLD\src\libopentld\imacq;R:\hfs5022\C++\OpenTLD\src\libopentld\mftracker;R:\hfs5022\C++\OpenTLD\src\libopentld\tld;R:\hfs5022\C++\OpenTLD\src\opentld\main;R:\hfs5022\C++\OpenTLD\src\opentld\qopentld;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

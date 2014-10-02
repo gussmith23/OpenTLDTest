@@ -1,0 +1,601 @@
+﻿Build started 10/2/2014 1:10:42 PM.
+     1>Project "R:\hfs5022\C++\OpenTLD\OpenTLD.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /IR:\hfs5022\C++\OpenTLD\src\3rdparty\cvblobs /IR:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig /IR:\hfs5022\C++\OpenTLD\src\libopentld\imacq /IR:\hfs5022\C++\OpenTLD\src\libopentld\mftracker /IR:\hfs5022\C++\OpenTLD\src\libopentld\tld /IR:\hfs5022\C++\OpenTLD\src\opentld\main /IR:\hfs5022\C++\OpenTLD\src\opentld\qopentld /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W3 /WX /Od /D WIN32 /D _DEBUG /D _WINDOWS /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /errorReport:prompt /clr:nostdlib src\3rdparty\cvblobs\blob.cpp src\3rdparty\cvblobs\BlobContour.cpp src\3rdparty\cvblobs\BlobOperators.cpp src\3rdparty\cvblobs\BlobResult.cpp src\3rdparty\cvblobs\ComponentLabeling.cpp src\3rdparty\libconfig\libconfigcpp.cc src\libopentld\imacq\ImAcq.cpp src\libopentld\mftracker\BB.cpp src\libopentld\mftracker\BBPredict.cpp src\libopentld\mftracker\Lk.cpp src\libopentld\tld\Clustering.cpp src\libopentld\tld\DetectionResult.cpp src\libopentld\tld\DetectorCascade.cpp src\libopentld\tld\EnsembleClassifier.cpp src\libopentld\tld\ForegroundDetector.cpp src\libopentld\tld\MedianFlowTracker.cpp src\libopentld\tld\NNClassifier.cpp src\libopentld\tld\TLD.cpp src\libopentld\tld\TLDUtil.cpp src\opentld\main\Config.cpp src\opentld\main\Gui.cpp src\opentld\main\Main.cpp src\opentld\main\Settings.cpp src\opentld\main\Trajectory.cpp src\opentld\OpenTLD.cpp src\opentld\QOpenTLD.cpp src\opentld\qopentld\ConfigDialog.cpp
+         blob.cpp
+     1>src\3rdparty\cvblobs\blob.cpp(586): error C2220: warning treated as error - no 'object' file generated
+     1>src\3rdparty\cvblobs\blob.cpp(586): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\3rdparty\cvblobs\blob.cpp(587): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\3rdparty\cvblobs\blob.cpp(592): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\3rdparty\cvblobs\blob.cpp(603): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\3rdparty\cvblobs\blob.cpp(624): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         BlobContour.cpp
+     1>c:\opencv249\build\include\opencv2\flann\logger.h(67): error C2220: warning treated as error - no 'object' file generated
+     1>c:\opencv249\build\include\opencv2\flann\logger.h(67): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+         BlobOperators.cpp
+     1>c:\opencv249\build\include\opencv2\flann\logger.h(67): error C2220: warning treated as error - no 'object' file generated
+     1>c:\opencv249\build\include\opencv2\flann\logger.h(67): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+         BlobResult.cpp
+     1>c:\opencv249\build\include\opencv2\flann\logger.h(67): error C2220: warning treated as error - no 'object' file generated
+     1>c:\opencv249\build\include\opencv2\flann\logger.h(67): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\cvblobs\BlobResult.h(149): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>src\3rdparty\cvblobs\BlobResult.cpp(934): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+         ComponentLabeling.cpp
+     1>c:\opencv249\build\include\opencv2\flann\logger.h(67): error C2220: warning treated as error - no 'object' file generated
+     1>c:\opencv249\build\include\opencv2\flann\logger.h(67): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>src\3rdparty\cvblobs\ComponentLabeling.cpp(318): warning C4244: 'argument' : conversion from 'short' to 't_chainCode', possible loss of data
+     1>src\3rdparty\cvblobs\ComponentLabeling.cpp(346): warning C4244: 'argument' : conversion from 'short' to 't_chainCode', possible loss of data
+         libconfigcpp.cc
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(201): error C2220: warning treated as error - no 'object' file generated
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(201): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(216): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(217): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(218): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(219): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(220): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(221): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(222): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(223): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(224): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(225): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(226): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(228): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(231): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(232): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(233): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(234): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(235): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(236): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(237): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(238): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(241): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(244): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(248): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(298): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(301): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(305): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(308): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(312): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(314): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(326): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(327): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(382): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(385): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(386): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(389): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(390): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(393): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(396): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(41): warning C4273: 'libconfig::ParseException::ParseException' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(158) : see previous definition of '{ctor}'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(48): warning C4273: 'libconfig::ParseException::ParseException' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(141) : see previous definition of '{ctor}'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(57): warning C4273: 'libconfig::ParseException::~ParseException' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(143) : see previous definition of '{dtor}'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(64): warning C4273: 'libconfig::ParseException::what' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(154) : see previous definition of 'what'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(139): warning C4273: 'libconfig::SettingException::SettingException' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(72) : see previous definition of '{ctor}'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(149): warning C4273: 'libconfig::SettingException::SettingException' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(73) : see previous definition of '{ctor}'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(160): warning C4273: 'libconfig::SettingException::SettingException' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(74) : see previous definition of '{ctor}'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(171): warning C4273: 'libconfig::SettingException::SettingException' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(75) : see previous definition of '{ctor}'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(178): warning C4273: 'libconfig::SettingException::getPath' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(66) : see previous definition of 'getPath'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(185): warning C4273: 'libconfig::SettingException::SettingException' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(61) : see previous definition of '{ctor}'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(192): warning C4273: 'libconfig::SettingException::operator =' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(62) : see previous definition of '='
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(202): warning C4273: 'libconfig::SettingException::what' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(68) : see previous definition of 'what'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(209): warning C4273: 'libconfig::SettingException::~SettingException' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(64) : see previous definition of '{dtor}'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(216): warning C4273: 'libconfig::SettingTypeException::SettingTypeException' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(93) : see previous definition of '{ctor}'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(223): warning C4273: 'libconfig::SettingTypeException::SettingTypeException' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(94) : see previous definition of '{ctor}'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(231): warning C4273: 'libconfig::SettingTypeException::SettingTypeException' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(95) : see previous definition of '{ctor}'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(238): warning C4273: 'libconfig::SettingTypeException::what' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(89) : see previous definition of 'what'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(246): warning C4273: 'libconfig::SettingNotFoundException::SettingNotFoundException' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(109) : see previous definition of '{ctor}'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(254): warning C4273: 'libconfig::SettingNotFoundException::SettingNotFoundException' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(110) : see previous definition of '{ctor}'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(261): warning C4273: 'libconfig::SettingNotFoundException::SettingNotFoundException' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(111) : see previous definition of '{ctor}'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(268): warning C4273: 'libconfig::SettingNotFoundException::what' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(105) : see previous definition of 'what'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(276): warning C4273: 'libconfig::SettingNameException::SettingNameException' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(125) : see previous definition of '{ctor}'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(283): warning C4273: 'libconfig::SettingNameException::what' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(121) : see previous definition of 'what'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(290): warning C4273: 'libconfig::FileIOException::what' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(132) : see previous definition of 'what'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(297): warning C4273: 'libconfig::Config::ConfigDestructor' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(360) : see previous definition of 'ConfigDestructor'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(304): warning C4273: 'libconfig::Config::Config' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(366) : see previous definition of '{ctor}'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(314): warning C4273: 'libconfig::Config::~Config' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(367) : see previous definition of '{dtor}'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(322): warning C4273: 'libconfig::Config::setAutoConvert' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(369) : see previous definition of 'setAutoConvert'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(329): warning C4273: 'libconfig::Config::getAutoConvert' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(370) : see previous definition of 'getAutoConvert'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(336): warning C4273: 'libconfig::Config::setDefaultFormat' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(372) : see previous definition of 'setDefaultFormat'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(348): warning C4273: 'libconfig::Config::setTabWidth' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(376) : see previous definition of 'setTabWidth'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(355): warning C4273: 'libconfig::Config::getTabWidth' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(377) : see previous definition of 'getTabWidth'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(362): warning C4273: 'libconfig::Config::setIncludeDir' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(379) : see previous definition of 'setIncludeDir'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(369): warning C4273: 'libconfig::Config::getIncludeDir' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(380) : see previous definition of 'getIncludeDir'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(376): warning C4273: 'libconfig::Config::handleError' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(454) : see previous definition of 'handleError'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(396): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(397): warning C4273: 'libconfig::Config::read' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(382) : see previous definition of 'read'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(404): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(405): warning C4273: 'libconfig::Config::readString' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(385) : see previous definition of 'readString'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(413): warning C4273: 'libconfig::Config::write' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(383) : see previous definition of 'write'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(420): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(421): warning C4273: 'libconfig::Config::readFile' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(389) : see previous definition of 'readFile'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(428): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(429): warning C4273: 'libconfig::Config::writeFile' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(390) : see previous definition of 'writeFile'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(437): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(438): warning C4273: 'libconfig::Config::lookup' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(396) : see previous definition of 'lookup'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(449): warning C4273: 'libconfig::Config::exists' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(401) : see previous definition of 'exists'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(472): warning C4273: 'libconfig::Config::lookupValue' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(403) : see previous definition of 'lookupValue'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(479): warning C4273: 'libconfig::Config::lookupValue' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(404) : see previous definition of 'lookupValue'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(486): warning C4273: 'libconfig::Config::lookupValue' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(405) : see previous definition of 'lookupValue'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(493): warning C4273: 'libconfig::Config::lookupValue' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(406) : see previous definition of 'lookupValue'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(501): warning C4273: 'libconfig::Config::lookupValue' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(407) : see previous definition of 'lookupValue'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(508): warning C4273: 'libconfig::Config::lookupValue' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(409) : see previous definition of 'lookupValue'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(515): warning C4273: 'libconfig::Config::lookupValue' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(410) : see previous definition of 'lookupValue'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(522): warning C4273: 'libconfig::Config::lookupValue' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(411) : see previous definition of 'lookupValue'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(529): warning C4273: 'libconfig::Config::lookupValue' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(412) : see previous definition of 'lookupValue'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(536): warning C4273: 'libconfig::Config::getRoot' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(448) : see previous definition of 'getRoot'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(543): warning C4273: 'libconfig::Setting::Setting' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(198) : see previous definition of '{ctor}'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(601): warning C4273: 'libconfig::Setting::~Setting' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(209) : see previous definition of '{dtor}'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(608): warning C4273: 'libconfig::Setting::setFormat' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(214) : see previous definition of 'setFormat'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(624): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(625): warning C4273: 'libconfig::Setting::operator bool' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(216) : see previous definition of '._N'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(633): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(634): warning C4273: 'libconfig::Setting::operator int' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(217) : see previous definition of '.H'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(642): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(643): warning C4273: 'libconfig::Setting::operator unsigned int' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(218) : see previous definition of '.I'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(656): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(657): warning C4273: 'libconfig::Setting::operator long' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(219) : see previous definition of '.J'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(659): warning C4244: 'return' : conversion from '__int64' to 'long', possible loss of data
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(666): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(667): warning C4273: 'libconfig::Setting::operator unsigned long' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(220) : see previous definition of '.K'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(669): warning C4244: 'return' : conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(676): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(677): warning C4273: 'libconfig::Setting::operator __int64' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(221) : see previous definition of '._J'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(685): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(686): warning C4273: 'libconfig::Setting::operator unsigned __int64' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(222) : see previous definition of '._K'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(699): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(700): warning C4273: 'libconfig::Setting::operator double' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(223) : see previous definition of '.N'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(708): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(709): warning C4273: 'libconfig::Setting::operator float' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(224) : see previous definition of '.M'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(718): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(719): warning C4273: 'libconfig::Setting::operator const char *' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(225) : see previous definition of '.PEBD'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(727): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(728): warning C4273: 'libconfig::Setting::operator std::string' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(226) : see previous definition of '.?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(742): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(743): warning C4273: 'libconfig::Setting::operator =' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(231) : see previous definition of '='
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(753): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(754): warning C4273: 'libconfig::Setting::operator =' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(232) : see previous definition of '='
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(764): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(765): warning C4273: 'libconfig::Setting::operator =' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(233) : see previous definition of '='
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(775): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(776): warning C4273: 'libconfig::Setting::operator =' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(234) : see previous definition of '='
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(786): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(787): warning C4273: 'libconfig::Setting::operator =' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(235) : see previous definition of '='
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(797): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(798): warning C4273: 'libconfig::Setting::operator =' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(236) : see previous definition of '='
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(810): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(811): warning C4273: 'libconfig::Setting::operator =' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(237) : see previous definition of '='
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(822): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(823): warning C4273: 'libconfig::Setting::operator =' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(238) : see previous definition of '='
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(834): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(835): warning C4273: 'libconfig::Setting::operator []' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(247) : see previous definition of '[]'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(850): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(851): warning C4273: 'libconfig::Setting::operator []' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(240) : see previous definition of '[]'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(879): warning C4273: 'libconfig::Setting::lookupValue' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(250) : see previous definition of 'lookupValue'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(886): warning C4273: 'libconfig::Setting::lookupValue' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(251) : see previous definition of 'lookupValue'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(894): warning C4273: 'libconfig::Setting::lookupValue' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(252) : see previous definition of 'lookupValue'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(901): warning C4273: 'libconfig::Setting::lookupValue' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(253) : see previous definition of 'lookupValue'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(909): warning C4273: 'libconfig::Setting::lookupValue' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(254) : see previous definition of 'lookupValue'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(916): warning C4273: 'libconfig::Setting::lookupValue' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(256) : see previous definition of 'lookupValue'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(923): warning C4273: 'libconfig::Setting::lookupValue' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(257) : see previous definition of 'lookupValue'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(930): warning C4273: 'libconfig::Setting::lookupValue' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(258) : see previous definition of 'lookupValue'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(937): warning C4273: 'libconfig::Setting::lookupValue' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(259) : see previous definition of 'lookupValue'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(944): warning C4273: 'libconfig::Setting::exists' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(319) : see previous definition of 'exists'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(956): warning C4273: 'libconfig::Setting::getLength' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(321) : see previous definition of 'getLength'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(963): warning C4273: 'libconfig::Setting::getName' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(322) : see previous definition of 'getName'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(970): warning C4273: 'libconfig::Setting::getPath' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(323) : see previous definition of 'getPath'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(980): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(981): warning C4273: 'libconfig::Setting::getParent' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(326) : see previous definition of 'getParent'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(992): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(993): warning C4273: 'libconfig::Setting::getParent' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(327) : see previous definition of 'getParent'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(1005): warning C4273: 'libconfig::Setting::getSourceLine' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(350) : see previous definition of 'getSourceLine'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(1012): warning C4273: 'libconfig::Setting::getSourceFile' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(351) : see previous definition of 'getSourceFile'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(1019): warning C4273: 'libconfig::Setting::isRoot' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(329) : see previous definition of 'isRoot'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(1026): warning C4273: 'libconfig::Setting::getIndex' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(324) : see previous definition of 'getIndex'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(1033): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(1034): warning C4273: 'libconfig::Setting::remove' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(297) : see previous definition of 'remove'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(1044): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(1045): warning C4273: 'libconfig::Setting::remove' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(304) : see previous definition of 'remove'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(1056): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(1057): warning C4273: 'libconfig::Setting::add' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(311) : see previous definition of 'add'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(1075): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(1076): warning C4273: 'libconfig::Setting::add' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(314) : see previous definition of 'add'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(1135): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(1136): warning C4273: 'libconfig::Setting::assertType' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(200) : see previous definition of 'assertType'
+     1>r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfigcpp.c++(1148): warning C4273: 'libconfig::Setting::wrapSetting' : inconsistent dll linkage
+                 r:\hfs5022\c++\opentld\src\3rdparty\libconfig\libconfig.h++(202) : see previous definition of 'wrapSetting'
+         ImAcq.cpp
+     1>src\libopentld\imacq\ImAcq.cpp(112): error C2220: warning treated as error - no 'object' file generated
+     1>src\libopentld\imacq\ImAcq.cpp(112): warning C4244: '=' : conversion from 'int64' to 'double', possible loss of data
+     1>src\libopentld\imacq\ImAcq.cpp(163): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>src\libopentld\imacq\ImAcq.cpp(166): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+         BB.cpp
+     1>src\libopentld\mftracker\BB.cpp(74): error C2220: warning treated as error - no 'object' file generated
+     1>src\libopentld\mftracker\BB.cpp(74): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>src\libopentld\mftracker\BB.cpp(98): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>src\libopentld\mftracker\BB.cpp(119): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>src\libopentld\mftracker\BB.cpp(120): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>src\libopentld\mftracker\BB.cpp(151): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\libopentld\mftracker\BB.cpp(152): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         BBPredict.cpp
+     1>src\libopentld\mftracker\BBPredict.cpp(105): error C2220: warning treated as error - no 'object' file generated
+     1>src\libopentld\mftracker\BBPredict.cpp(105): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\libopentld\mftracker\BBPredict.cpp(106): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         Lk.cpp
+     1>src\libopentld\mftracker\Lk.cpp(250): error C2220: warning treated as error - no 'object' file generated
+     1>src\libopentld\mftracker\Lk.cpp(250): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>src\libopentld\mftracker\Lk.cpp(251): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>src\libopentld\mftracker\Lk.cpp(252): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>src\libopentld\mftracker\Lk.cpp(253): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+         Clustering.cpp
+     1>c:\opencv249\build\include\opencv2\flann\logger.h(67): error C2220: warning treated as error - no 'object' file generated
+     1>c:\opencv249\build\include\opencv2\flann\logger.h(67): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>src\libopentld\tld\Clustering.cpp(60): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>src\libopentld\tld\Clustering.cpp(78): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>src\libopentld\tld\Clustering.cpp(79): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>src\libopentld\tld\Clustering.cpp(80): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>src\libopentld\tld\Clustering.cpp(81): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>src\libopentld\tld\Clustering.cpp(111): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>src\libopentld\tld\Clustering.cpp(131): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+         DetectionResult.cpp
+     1>c:\opencv249\build\include\opencv2\flann\logger.h(67): error C2220: warning treated as error - no 'object' file generated
+     1>c:\opencv249\build\include\opencv2\flann\logger.h(67): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+         DetectorCascade.cpp
+     1>c:\opencv249\build\include\opencv2\flann\logger.h(67): error C2220: warning treated as error - no 'object' file generated
+     1>c:\opencv249\build\include\opencv2\flann\logger.h(67): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>src\libopentld\tld\DetectorCascade.cpp(49): warning C4305: '=' : truncation from 'double' to 'float'
+     1>src\libopentld\tld\DetectorCascade.cpp(182): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>src\libopentld\tld\DetectorCascade.cpp(183): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>src\libopentld\tld\DetectorCascade.cpp(184): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>src\libopentld\tld\DetectorCascade.cpp(189): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>src\libopentld\tld\DetectorCascade.cpp(190): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>src\libopentld\tld\DetectorCascade.cpp(205): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>src\libopentld\tld\DetectorCascade.cpp(221): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>src\libopentld\tld\DetectorCascade.cpp(222): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+         EnsembleClassifier.cpp
+     1>c:\opencv249\build\include\opencv2\flann\logger.h(67): error C2220: warning treated as error - no 'object' file generated
+     1>c:\opencv249\build\include\opencv2\flann\logger.h(67): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>src\libopentld\tld\EnsembleClassifier.cpp(65): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         ForegroundDetector.cpp
+     1>c:\opencv249\build\include\opencv2\flann\logger.h(67): error C2220: warning treated as error - no 'object' file generated
+     1>c:\opencv249\build\include\opencv2\flann\logger.h(67): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\cvblobs\BlobResult.h(149): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+         MedianFlowTracker.cpp
+     1>src\libopentld\tld\MedianFlowTracker.cpp(63): error C2220: warning treated as error - no 'object' file generated
+     1>src\libopentld\tld\MedianFlowTracker.cpp(63): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>src\libopentld\tld\MedianFlowTracker.cpp(73): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\libopentld\tld\MedianFlowTracker.cpp(74): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\libopentld\tld\MedianFlowTracker.cpp(75): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\libopentld\tld\MedianFlowTracker.cpp(76): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\libopentld\tld\MedianFlowTracker.cpp(85): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         NNClassifier.cpp
+     1>c:\opencv249\build\include\opencv2\flann\logger.h(67): error C2220: warning treated as error - no 'object' file generated
+     1>c:\opencv249\build\include\opencv2\flann\logger.h(67): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>src\libopentld\tld\NNClassifier.cpp(40): warning C4305: '=' : truncation from 'double' to 'float'
+     1>src\libopentld\tld\NNClassifier.cpp(78): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+         TLD.cpp
+     1>src\libopentld\tld\TLD.cpp(294): error C2220: warning treated as error - no 'object' file generated
+     1>src\libopentld\tld\TLD.cpp(294): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>src\libopentld\tld\TLD.cpp(390): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>src\libopentld\tld\TLD.cpp(569): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>src\libopentld\tld\TLD.cpp(601): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>src\libopentld\tld\TLD.cpp(623): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         TLDUtil.cpp
+     1>c:\opencv249\build\include\opencv2\flann\logger.h(67): error C2220: warning treated as error - no 'object' file generated
+     1>c:\opencv249\build\include\opencv2\flann\logger.h(67): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+         Config.cpp
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(201): error C2220: warning treated as error - no 'object' file generated
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(201): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(216): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(217): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(218): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(219): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(220): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(221): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(222): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(223): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(224): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(225): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(226): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(228): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(231): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(232): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(233): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(234): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(235): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(236): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(237): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(238): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(241): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(244): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(248): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(298): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(301): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(305): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(308): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(312): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(314): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(326): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(327): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(382): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(385): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(386): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(389): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(390): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(393): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(396): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\opencv249\build\include\opencv2\flann\logger.h(67): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>src\opentld\main\Config.cpp(99): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(200) : see declaration of 'strtok'
+     1>src\opentld\main\Config.cpp(104): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(200) : see declaration of 'strtok'
+     1>src\opentld\main\Config.cpp(174): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\opentld\main\Config.cpp(202): warning C4101: 'fioex' : unreferenced local variable
+     1>src\opentld\main\Config.cpp(207): warning C4101: 'pex' : unreferenced local variable
+     1>src\opentld\main\Config.cpp(226): warning C4101: 'nfex' : unreferenced local variable
+     1>src\opentld\main\Config.cpp(240): warning C4101: 'nfex' : unreferenced local variable
+     1>src\opentld\main\Config.cpp(254): warning C4101: 'nfex' : unreferenced local variable
+     1>src\opentld\main\Config.cpp(274): warning C4101: 'nfex' : unreferenced local variable
+     1>src\opentld\main\Config.cpp(419): warning C4101: 'nfex' : unreferenced local variable
+         Generating Code...
+         Compiling...
+         Gui.cpp
+     1>c:\opencv249\build\include\opencv2\flann\logger.h(67): error C2220: warning treated as error - no 'object' file generated
+     1>c:\opencv249\build\include\opencv2\flann\logger.h(67): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+         Main.cpp
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(201): error C2220: warning treated as error - no 'object' file generated
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(201): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(216): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(217): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(218): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(219): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(220): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(221): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(222): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(223): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(224): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(225): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(226): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(228): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(231): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(232): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(233): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(234): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(235): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(236): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(237): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(238): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(241): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(244): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(248): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(298): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(301): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(305): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(308): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(312): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(314): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(326): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(327): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(382): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(385): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(386): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(389): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(390): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(393): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(396): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>src\opentld\main\Main.cpp(46): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>src\opentld\main\Main.cpp(107): warning C4244: 'initializing' : conversion from 'int64' to 'double', possible loss of data
+     1>src\opentld\main\Main.cpp(148): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+         Settings.cpp
+     1>src\opentld\main\Settings.cpp(67): error C2220: warning treated as error - no 'object' file generated
+     1>src\opentld\main\Settings.cpp(67): warning C4305: 'initializing' : truncation from 'double' to 'float'
+         Trajectory.cpp
+     1>c:\opencv249\build\include\opencv2\flann\logger.h(67): error C2220: warning treated as error - no 'object' file generated
+     1>c:\opencv249\build\include\opencv2\flann\logger.h(67): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+         OpenTLD.cpp
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(201): error C2220: warning treated as error - no 'object' file generated
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(201): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(216): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(217): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(218): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(219): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(220): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(221): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(222): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(223): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(224): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(225): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(226): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(228): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(231): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(232): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(233): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(234): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(235): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(236): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(237): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(238): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(241): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(244): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(248): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(298): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(301): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(305): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(308): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(312): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(314): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(326): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(327): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(382): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(385): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(386): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(389): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(390): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(393): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(396): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+         QOpenTLD.cpp
+     1>c:\opencv249\build\include\opencv2\flann\logger.h(67): error C2220: warning treated as error - no 'object' file generated
+     1>c:\opencv249\build\include\opencv2\flann\logger.h(67): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(201): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(216): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(217): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(218): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(219): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(220): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(221): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(222): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(223): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(224): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(225): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(226): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(228): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(231): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(232): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(233): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(234): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(235): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(236): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(237): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(238): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(241): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(244): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(248): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(298): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(301): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(305): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(308): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(312): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(314): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(326): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(327): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(382): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(385): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(386): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(389): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(390): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(393): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\3rdparty\libconfig\libconfig.h++(396): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>R:\hfs5022\C++\OpenTLD\src\opentld\qopentld\ConfigDialog.h(27): fatal error C1083: Cannot open include file: 'QtGui/QApplication': No such file or directory
+         ConfigDialog.cpp
+     1>r:\hfs5022\c++\opentld\src\opentld\qopentld\ConfigDialog.h(27): fatal error C1083: Cannot open include file: 'QtGui/QApplication': No such file or directory
+         Generating Code...
+     1>Done Building Project "R:\hfs5022\C++\OpenTLD\OpenTLD.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:02:52.85

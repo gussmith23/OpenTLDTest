@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F7665BED-BE5D-4F03-AC2B-B8B5FAF1BE4C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="PropertySheet.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TreatLinkerWarningAsErrors>false</TreatLinkerWarningAsErrors>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\3rdparty\cvblobs\blob.cpp" />
+    <ClCompile Include="src\3rdparty\cvblobs\BlobContour.cpp" />
+    <ClCompile Include="src\3rdparty\cvblobs\BlobOperators.cpp" />
+    <ClCompile Include="src\3rdparty\cvblobs\BlobProperties.cpp" />
+    <ClCompile Include="src\3rdparty\cvblobs\BlobResult.cpp" />
+    <ClCompile Include="src\3rdparty\cvblobs\ComponentLabeling.cpp" />
+    <ClCompile Include="src\3rdparty\libconfig\grammar.c" />
+    <ClCompile Include="src\3rdparty\libconfig\libconfig.c" />
+    <ClCompile Include="src\3rdparty\libconfig\libconfigcpp.cc" />
+    <ClCompile Include="src\3rdparty\libconfig\scanctx.c" />
+    <ClCompile Include="src\3rdparty\libconfig\scanner.c" />
+    <ClCompile Include="src\3rdparty\libconfig\strbuf.c" />
+    <ClCompile Include="src\libopentld\imacq\ImAcq.cpp" />
+    <ClCompile Include="src\libopentld\mftracker\BB.cpp" />
+    <ClCompile Include="src\libopentld\mftracker\BBPredict.cpp" />
+    <ClCompile Include="src\libopentld\mftracker\FBTrack.cpp" />
+    <ClCompile Include="src\libopentld\mftracker\Lk.cpp" />
+    <ClCompile Include="src\libopentld\mftracker\Median.cpp" />
+    <ClCompile Include="src\libopentld\tld\Clustering.cpp" />
+    <ClCompile Include="src\libopentld\tld\DetectionResult.cpp" />
+    <ClCompile Include="src\libopentld\tld\DetectorCascade.cpp" />
+    <ClCompile Include="src\libopentld\tld\EnsembleClassifier.cpp" />
+    <ClCompile Include="src\libopentld\tld\ForegroundDetector.cpp" />
+    <ClCompile Include="src\libopentld\tld\MedianFlowTracker.cpp" />
+    <ClCompile Include="src\libopentld\tld\NNClassifier.cpp" />
+    <ClCompile Include="src\libopentld\tld\TLD.cpp" />
+    <ClCompile Include="src\libopentld\tld\TLDUtil.cpp" />
+    <ClCompile Include="src\libopentld\tld\VarianceFilter.cpp" />
+    <ClCompile Include="src\opentld\main\Config.cpp" />
+    <ClCompile Include="src\opentld\main\Gui.cpp" />
+    <ClCompile Include="src\opentld\main\Main.cpp" />
+    <ClCompile Include="src\opentld\main\Settings.cpp" />
+    <ClCompile Include="src\opentld\main\Trajectory.cpp" />
+    <ClCompile Include="src\opentld\OpenTLD.cpp" />
+    <ClCompile Include="src\opentld\QOpenTLD.cpp" />
+    <ClCompile Include="src\opentld\qopentld\ConfigDialog.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\3rdparty\cvblobs\blob.h" />
+    <ClInclude Include="src\3rdparty\cvblobs\BlobContour.h" />
+    <ClInclude Include="src\3rdparty\cvblobs\BlobLibraryConfiguration.h" />
+    <ClInclude Include="src\3rdparty\cvblobs\BlobOperators.h" />
+    <ClInclude Include="src\3rdparty\cvblobs\BlobProperties.h" />
+    <ClInclude Include="src\3rdparty\cvblobs\BlobResult.h" />
+    <ClInclude Include="src\3rdparty\cvblobs\ComponentLabeling.h" />
+    <ClInclude Include="src\3rdparty\libconfig\grammar.h" />
+    <ClInclude Include="src\3rdparty\libconfig\libconfig.h" />
+    <ClInclude Include="src\3rdparty\libconfig\parsectx.h" />
+    <ClInclude Include="src\3rdparty\libconfig\scanctx.h" />
+    <ClInclude Include="src\3rdparty\libconfig\scanner.h" />
+    <ClInclude Include="src\3rdparty\libconfig\strbuf.h" />
+    <ClInclude Include="src\3rdparty\libconfig\wincompat.h" />
+    <ClInclude Include="src\libopentld\imacq\ImAcq.h" />
+    <ClInclude Include="src\libopentld\mftracker\BB.h" />
+    <ClInclude Include="src\libopentld\mftracker\BBPredict.h" />
+    <ClInclude Include="src\libopentld\mftracker\FBTrack.h" />
+    <ClInclude Include="src\libopentld\mftracker\Lk.h" />
+    <ClInclude Include="src\libopentld\mftracker\Median.h" />
+    <ClInclude Include="src\libopentld\tld\Clustering.h" />
+    <ClInclude Include="src\libopentld\tld\DetectionResult.h" />
+    <ClInclude Include="src\libopentld\tld\DetectorCascade.h" />
+    <ClInclude Include="src\libopentld\tld\EnsembleClassifier.h" />
+    <ClInclude Include="src\libopentld\tld\ForegroundDetector.h" />
+    <ClInclude Include="src\libopentld\tld\IntegralImage.h" />
+    <ClInclude Include="src\libopentld\tld\MedianFlowTracker.h" />
+    <ClInclude Include="src\libopentld\tld\NNClassifier.h" />
+    <ClInclude Include="src\libopentld\tld\NormalizedPatch.h" />
+    <ClInclude Include="src\libopentld\tld\TLD.h" />
+    <ClInclude Include="src\libopentld\tld\TLDUtil.h" />
+    <ClInclude Include="src\libopentld\tld\VarianceFilter.h" />
+    <ClInclude Include="src\opentld\main\Config.h" />
+    <ClInclude Include="src\opentld\main\Gui.h" />
+    <ClInclude Include="src\opentld\main\Main.h" />
+    <ClInclude Include="src\opentld\main\Settings.h" />
+    <ClInclude Include="src\opentld\main\Trajectory.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
